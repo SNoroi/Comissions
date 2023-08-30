@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
@@ -40,3 +41,6 @@ O Comissions é um projeto para divulgação de trabalhos relacionados a rpg.
 ## :memo: Licença
 
 Feito por Noroi :wave:
+=======
+# Comissions
+>>>>>>> 5485836f721f433741f91501c3e2690af4333b32
