@@ -226,6 +226,7 @@ main {
   padding: 0px;
   align-content: flex-start;
   flex-direction: column;
+  transition: transform 0.3s;
 }
 
 #profile1 img {
@@ -271,4 +272,8 @@ main {
   line-height: 24px;
   margin-top: 8px;
   gap: 100px;
+}
+
+#profile1:hover {
+  transform: scale(1.2);
 }
