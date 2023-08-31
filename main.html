@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comissions</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script>
+      const changeThemeToDark = () => {
+        document.documentElement.setAttribute("data-theme", "dark")
+        localStorage.setItem("data-theme", "dark")
+      }
+
+      const changeThemeToLight = () => {
+        document.documentElement.setAttribute("data-theme", "light")
+        localStorage.setItem("data-theme", "light")
+      }
+      let theme = localStorage.getItem("data-theme")
+      if (theme == "dark") changeThemeToDark()
+    </script>
+  </head>
+  <body>
+    <div id="main33">
+    <div id="switch" onclick="toggleMode()">
+      <input type="checkbox" name="toggle-dark" id="toggle-dark" />
+      <span> </span>
+      </div>
+    </div>
+    <main>
+      <div id="profile1">
+        <a href="./index.html">
+        <img
+          src="./assets/iCON_HL2.png"
+          alt="Logo do Hunter Legacy com L laranja"
+        /></a>
+        <p id="logo">Hunter Legacy</p>
+        </div>
+        <div id="profile1">
+          <a href="./indexop.html">
+        <img
+          src="./assets/Logo_YT.png"
+          alt="Logo do Hunter Legacy com L laranja"
+        /></a>
+        <p id="logo">OP RPG</p>
+        </div>
+      </div>
+      
+
+        
+      </div>
+    </main>
+    
+
+    <!--
+    <div>
+      <footer>
+        Feito por <a href="https://discord.com">Noroi</a>
+        <ion-icon name="logo-discord"></ion-icon>
+      </footer>
+    </div> -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
